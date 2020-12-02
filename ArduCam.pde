@@ -38,7 +38,7 @@ void draw(){
 
 void readImage(){
   index=0;
-  buffer = new byte[8192];
+  buffer = new byte[12288];
   
   myPort.write(0x10); //Send command to capture image
   delay(1750); //This is essential!
