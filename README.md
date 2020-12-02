@@ -4,7 +4,9 @@ A small Processing sketch that downloads an ArduCam image over the USB Serial ca
 
 Captures 320x240 JPEG image every couple of seconds using single shot capture command (0x10).
 
-You will need to manually configure the appropriate COM port in the code.
+You will need to manually configure the appropriate COM port in the code. 
+
+The Arduino sketch used is one of the ArdUCam examples: ArduCAM_Mini_2MP_OV2640_functions.
 <br>
 <br>
 
